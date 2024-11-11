@@ -1,0 +1,72 @@
+[
+  {
+    "id": 1,
+    "name": "White T-shirt",
+    "price": 1, 
+    "description": "TEST1 White T-shirt",
+    "img": ""
+  },
+  {
+    "id": 2,
+    "name": "Blue T-shirt",
+    "price": 2, 
+    "description": "TEST2 Blue T-shirt",
+    "img": ""
+  },
+  {
+    "id": 3,
+    "name": "Yellow Jeans",
+    "price": 3, 
+    "description": "TEST3 Yellow Jeans",
+    "img": ""
+  },
+  {
+    "id": 4,
+    "name": "Black Jeans",
+    "price": 4, 
+    "description": "TEST4 Black Jeans",
+    "img": ""
+  },
+  {
+    "id": 5,
+    "name": "Green Jeans",
+    "price": 5, 
+    "description": "TEST5 Green Jeans",
+    "img": ""
+  },
+  {
+    "id": 6,
+    "name": "Green Long Sleeve Shirt",
+    "price": 6, 
+    "description": "TEST6 Green Long Sleeve Shirt",
+    "img": ""
+  },
+  {
+    "id": 7,
+    "name": "Blue Long Sleeve Shirt",
+    "price": 7, 
+    "description": "TEST7 Blue Long Sleeve Shirt",
+    "img": ""
+  },
+  {
+    "id": 8,
+    "name": "Black Socks",
+    "price": 8, 
+    "description": "Black Socks",
+    "img": ""
+  },
+  {
+    "id": 9,
+    "name": "White Socks",
+    "price": 9, 
+    "description": "White Socks",
+    "img": ""
+  },
+  {
+    "id": 10,
+    "name": "Yellow Socks",
+    "price": 10, 
+    "description": "TEST10 Yellow Socks",
+    "img": ""
+  }  
+]
