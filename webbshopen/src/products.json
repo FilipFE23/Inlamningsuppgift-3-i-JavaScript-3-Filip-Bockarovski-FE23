@@ -52,14 +52,14 @@
     "id": 8,
     "name": "Black Socks",
     "price": 8, 
-    "description": "Black Socks",
+    "description": "TEST8 Black Socks",
     "img": ""
   },
   {
     "id": 9,
     "name": "White Socks",
     "price": 9, 
-    "description": "White Socks",
+    "description": "TEST9 White Socks",
     "img": ""
   },
   {
