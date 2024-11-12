@@ -1,7 +1,8 @@
 import { useState } from "react";
+import SearchBarProps from "../types/SearchBarProps";
 
-export default function SearchBar() {
-  const [query, SetQuery] = useState("");
+export default function SearchBar(props: SearchBarProps) {
+  const [query, SetQuery] = useState<string>("");
 
   return (
     <>
@@ -11,7 +12,14 @@ export default function SearchBar() {
         value={query}
         onChange={(e) => SetQuery(e.target.value)}
       />
-      <button onClick={() => SetQuery("")}>Search</button>
+      <button
+        onClick={() => {
+          props.onClick(query);
+          SetQuery("");
+        }}
+      >
+        Search
+      </button>
       <p>{query}</p>
     </>
   );
