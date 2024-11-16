@@ -20,7 +20,6 @@ export default function SearchBar(props: SearchBarProps) {
       >
         Search
       </button>
-      <p>{query}</p>
     </>
   );
 }
