@@ -13,13 +13,7 @@ export default function ProductContainer(props: ProductContainerProps) {
       <div className="container">
         {filteredProductsList.length > 0 ? (
           filteredProductsList.map((product) => (
-            <Product
-              key={product.id}
-              id={product.id}
-              name={product.name}
-              price={product.price}
-              description={product.description}
-            />
+            <Product key={product.id} {...product} />
           ))
         ) : (
           <p>No Results</p>
