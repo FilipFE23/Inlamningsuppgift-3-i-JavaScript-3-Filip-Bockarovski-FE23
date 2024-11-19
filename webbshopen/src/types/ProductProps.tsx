@@ -5,4 +5,5 @@ interface ProductProps {
   name: string;
   price: number;
   description: string;
+  img: string;
 }

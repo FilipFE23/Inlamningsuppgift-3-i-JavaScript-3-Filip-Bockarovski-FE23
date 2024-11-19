@@ -30,6 +30,10 @@ header {
   justify-content: space-between;
 }
 
+.titleImgContainer {
+  width: 50%;
+}
+
 .searchBar {
   margin: auto 0px;
 }
@@ -44,7 +48,7 @@ header {
 
 .cartList {
   overflow-y: auto;
-  max-height: 32rem;
+  max-height: 36rem;
   min-height: 2rem;
   padding: 0px 1rem;
 }
@@ -55,6 +59,11 @@ header {
   padding: 1rem;
   width: 30%;
   background-color: whitesmoke;
+}
+
+.productImgSize {
+  width: 100px;
+  height: 100px;
 }
 
 .dialogBtn {
@@ -78,6 +87,11 @@ header {
   border: none;
 }
 
+.popupImgSize {
+  width: 40%;
+  margin: 1rem;
+}
+
 .noResult {
   font-size: 30px;
   color: grey;
@@ -89,9 +103,13 @@ header {
   width: 100%;
   margin: 0.5rem 0px;
   padding: 1rem;
-  height: 7rem;
+  height: 8rem;
   box-shadow: grey 0px 0px 10px;
   background-color: whitesmoke;
+}
+
+.cartImgSize {
+  height: 4rem;
 }
 
 .totalPrice {
