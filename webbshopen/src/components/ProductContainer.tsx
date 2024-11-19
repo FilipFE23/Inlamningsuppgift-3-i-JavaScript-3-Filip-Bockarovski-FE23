@@ -9,14 +9,14 @@ export default function ProductContainer(props: ProductContainerProps) {
 
   return (
     <>
-      <h2>Search Result: {props.query}</h2>
+      <h2>Search Result</h2>
       <div className="container">
         {filteredProductsList.length > 0 ? (
           filteredProductsList.map((product) => (
             <Product key={product.id} {...product} />
           ))
         ) : (
-          <p>No Results</p>
+          <p className="noResult">No Results</p>
         )}
       </div>
     </>

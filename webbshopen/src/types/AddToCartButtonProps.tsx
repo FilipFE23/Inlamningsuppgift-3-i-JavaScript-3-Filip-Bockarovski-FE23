@@ -1,5 +1,5 @@
 export default AddToCartButtonProps;
 
-type AddToCartButtonProps = {
+interface AddToCartButtonProps {
   id: number;
-};
+}

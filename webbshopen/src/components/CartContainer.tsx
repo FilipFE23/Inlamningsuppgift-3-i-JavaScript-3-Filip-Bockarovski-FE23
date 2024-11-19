@@ -2,7 +2,7 @@ import CartItem from "./CartItem";
 import { useContext, useEffect, useState } from "react";
 import { CartContext } from "../context/CartContext";
 import ProductData from "../products.json";
-import CartItemProps from "../types/CartItemProps";
+import { CartItemProps } from "../types/CartItemProps";
 
 export default function CartContainer() {
   const [cartList, setCartList] = useState<CartItemProps[]>([]);
@@ -41,15 +41,26 @@ export default function CartContainer() {
     return total + product.price * product.amount;
   }, 0);
 
+  const removeItem = (id: number) => {
+    setCartList((prevCartList) =>
+      prevCartList.filter((item) => item.id !== id)
+    );
+  };
+
   return (
     <>
       <h2>Shopping Cart</h2>
-      <div>
+      <div className="cartList">
         {cartList &&
           cartList.length > 0 &&
-          cartList.map((product) => <CartItem key={product.id} {...product} />)}
+          cartList.map((product) => (
+            <CartItem key={product.id} {...product} removeItem={removeItem} />
+          ))}
       </div>
-      <p>Total: {totalPrice}kr</p>
+      <div className="totalPrice separate">
+        <p>Total:</p>
+        <p>{totalPrice}kr</p>
+      </div>
     </>
   );
 }

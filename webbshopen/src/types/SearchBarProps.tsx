@@ -1,5 +1,5 @@
 export default SearchBarProps;
 
-type SearchBarProps = {
+interface SearchBarProps {
   onClick: (input: string) => void;
-};
+}
