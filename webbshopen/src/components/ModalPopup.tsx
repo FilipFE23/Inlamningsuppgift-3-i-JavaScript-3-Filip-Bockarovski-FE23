@@ -18,13 +18,20 @@ export default function ModalPopup(props: ModalPopupProps) {
 
   return (
     <>
-      <button className="dialogBtn" onClick={openDialog}>Show more</button>
+      <button className="dialogBtn" onClick={openDialog}>
+        Show more
+      </button>
       <dialog className="popup" ref={dialogRef}>
-        <div>
-          <h4>{props.name}</h4>
+        <div className="container">
+          <div>
+            <h4>{props.name}</h4>
+            <img className="popupImgSize" src={props.img} alt="" />
+          </div>
           <p>{props.description}</p>
-          <button className="dialogBtn" onClick={closeDialog}>Close</button>
         </div>
+          <button className="dialogBtn" onClick={closeDialog}>
+            Close
+          </button>
       </dialog>
     </>
   );
