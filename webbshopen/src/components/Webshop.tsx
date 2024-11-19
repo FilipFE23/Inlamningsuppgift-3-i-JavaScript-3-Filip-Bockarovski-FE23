@@ -14,16 +14,18 @@ export default function Webshop() {
 
   return (
     <>
-      <header>
+      <header className="headerPadding separate">
         <h1>The Magic Store</h1>
-        <SearchBar onClick={handleSearch} />
+        <div className="searchBar">
+          <SearchBar onClick={handleSearch} />
+        </div>
       </header>
       <CartContext.Provider value={{ productId, setProductId }}>
-        <div className="container">
-          <main>
+        <div className="container mainPageMargin">
+          <main className="productList">
             <ProductContainer query={searchResult} />
           </main>
-          <aside>
+          <aside className="shoppingCart">
             <CartContainer />
           </aside>
         </div>

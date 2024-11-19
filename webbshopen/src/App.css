@@ -5,9 +5,96 @@
 }
 
 body {
-  margin: 2rem 4rem 0 4rem;
+  background-color: white;
+}
+
+header {
+  background: lightblue;
+}
+
+.headerPadding {
+  padding: 2rem;
+}
+
+.mainPageMargin {
+  margin: 2rem;
 }
 
 .container {
   display: flex;
+  flex-wrap: wrap;
+}
+
+.separate {
+  display: flex;
+  justify-content: space-between;
+}
+
+.searchBar {
+  margin: auto 0px;
+}
+
+.productList {
+  width: 80%;
+}
+
+.shoppingCart {
+  width: 20%;
+}
+
+.cartList {
+  overflow-y: auto;
+  max-height: 32rem;
+  min-height: 2rem;
+  padding: 0px 1rem;
+}
+
+.productCard {
+  box-shadow: grey 0px 0px 10px;
+  margin: 1rem;
+  padding: 1rem;
+  width: 30%;
+  background-color: whitesmoke;
+}
+
+.dialogBtn {
+  color: blue;
+  text-decoration: underline;
+  background: whitesmoke;
+  border: none;
+}
+
+.dialogBtn:hover {
+  cursor: pointer;
+}
+
+.popup {
+  margin: auto;
+  height: 400px;
+  width: 60%;
+  padding: 2rem;
+  background: whitesmoke;
+  box-shadow: black 0px 0px 20px;
+  border: none;
+}
+
+.noResult {
+  font-size: 30px;
+  color: grey;
+  padding: 14rem;
+  margin: auto;
+}
+
+.cartItemCard {
+  width: 100%;
+  margin: 0.5rem 0px;
+  padding: 1rem;
+  height: 7rem;
+  box-shadow: grey 0px 0px 10px;
+  background-color: whitesmoke;
+}
+
+.totalPrice {
+  margin-top: 1rem;
+  font-size: 20px;
 }

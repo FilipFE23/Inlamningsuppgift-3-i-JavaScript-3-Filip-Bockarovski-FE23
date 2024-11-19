@@ -1,5 +1,5 @@
 export default ProductContainerProps;
 
-type ProductContainerProps = {
+interface ProductContainerProps {
   query: string;
-};
+}

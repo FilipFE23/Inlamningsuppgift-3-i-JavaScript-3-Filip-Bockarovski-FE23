@@ -2,71 +2,71 @@
   {
     "id": 1,
     "name": "White T-shirt",
-    "price": 1, 
-    "description": "TEST1 White T-shirt",
+    "price": 199,
+    "description": "A classic plain white t-shirt made from soft, breathable 100% cotton fabric. It features a crew neckline and short sleeves, offering a comfortable and versatile fit for everyday wear. The shirt has a lightweight design and a smooth finish, making it perfect as a standalone piece or for layering under jackets and shirts. Pre-shrunk for durability, it retains its shape and texture after washing.",
     "img": ""
   },
   {
     "id": 2,
     "name": "Blue T-shirt",
-    "price": 2, 
-    "description": "TEST2 Blue T-shirt",
+    "price": 149,
+    "description": "A classic blue t-shirt designed for comfort and everyday wear. Made from a soft and breathable cotton fabric, this t-shirt features a crew neckline and short sleeves for a relaxed, casual fit. The vibrant blue color adds a fresh, lively touch to your wardrobe, making it easy to pair with jeans, shorts, or even layered under jackets or sweaters. Pre-shrunk for durability, this t-shirt retains its shape and softness after multiple washes, ensuring it remains a wardrobe essential season after season.",
     "img": ""
   },
   {
     "id": 3,
     "name": "Yellow Jeans",
-    "price": 3, 
-    "description": "TEST3 Yellow Jeans",
+    "price": 349,
+    "description": "A vibrant pair of yellow jeans designed to make a bold statement while ensuring comfort and durability. Made from a high-quality stretch denim blend (typically cotton with a small percentage of elastane), these jeans provide a snug yet flexible fit. Featuring a classic five-pocket design, a button fly with a zip closure, and belt loops, they combine functionality with fashion. The bright yellow wash offers a modern, cheerful look that pairs well with neutral or contrasting tops for a striking outfit.",
     "img": ""
   },
   {
     "id": 4,
     "name": "Black Jeans",
-    "price": 4, 
-    "description": "TEST4 Black Jeans",
+    "price": 599,
+    "description": "A classic pair of black jeans that combine versatility and style. Made from a durable and comfortable denim blend, these jeans offer a sleek, modern look with a timeless appeal. The black wash gives them a polished appearance, making them suitable for both casual and semi-formal occasions. Featuring a traditional five-pocket design, a zip fly with a button closure, and belt loops, they provide both practicality and style. Whether dressed up with a button-down shirt or kept casual with a t-shirt, these black jeans are a wardrobe staple.",
     "img": ""
   },
   {
     "id": 5,
     "name": "Green Jeans",
-    "price": 5, 
-    "description": "TEST5 Green Jeans",
+    "price": 449,
+    "description": "A stylish pair of green jeans that add a unique touch of color to your wardrobe. Crafted from a high-quality stretch denim blend, these jeans offer a comfortable fit that moves with you throughout the day. The vibrant green color is perfect for those looking to make a statement while maintaining a casual, trendy look. Featuring a classic five-pocket design, a zip fly with button closure, and belt loops, these jeans are both functional and fashionable. Whether paired with a simple t-shirt or a more polished shirt, these green jeans are sure to stand out in a crowd.",
     "img": ""
   },
   {
     "id": 6,
     "name": "Green Long Sleeve Shirt",
-    "price": 6, 
-    "description": "TEST6 Green Long Sleeve Shirt",
+    "price": 499,
+    "description": "A stylish and versatile green long sleeve shirt, perfect for both casual and semi-formal occasions. Made from a soft, breathable fabric such as cotton or a cotton blend, this shirt provides all-day comfort with a touch of sophistication. The rich green color adds a fresh, vibrant look, while the classic button-down design and adjustable cuffs give it a tailored appearance. Ideal for layering over t-shirts or wearing on its own, this shirt can be paired with jeans for a laid-back look or dress pants for a more refined style.",
     "img": ""
   },
   {
     "id": 7,
     "name": "Blue Long Sleeve Shirt",
-    "price": 7, 
-    "description": "TEST7 Blue Long Sleeve Shirt",
+    "price": 349,
+    "description": "A versatile blue long sleeve shirt, perfect for layering or wearing on its own. Made from soft, breathable cotton or a cotton blend, this shirt offers comfort and style throughout the day. The classic blue color gives it a refined yet casual look, making it ideal for both office settings and weekend outings. Featuring a button-down design, adjustable cuffs, and a regular fit, this shirt provides a polished appearance without sacrificing comfort. Whether paired with jeans for a relaxed look or with dress pants for a more formal style, this blue long sleeve shirt is a wardrobe essential.",
     "img": ""
   },
   {
     "id": 8,
     "name": "Black Socks",
-    "price": 8, 
-    "description": "TEST8 Black Socks",
+    "price": 39,
+    "description": "A pair of classic black socks crafted for comfort and durability, perfect for everyday wear. Made from a soft and breathable blend of cotton, polyester, and spandex, they provide a snug fit that stays in place throughout the day. Featuring reinforced heels and toes for added longevity, these socks offer a smooth, irritation-free finish. The black color ensures versatility, making them suitable for casual, formal, or athletic wear.",
     "img": ""
   },
   {
     "id": 9,
     "name": "White Socks",
-    "price": 9, 
-    "description": "TEST9 White Socks",
+    "price": 39,
+    "description": "A pair of versatile white socks designed for all-day comfort and durability. Made from a premium blend of cotton, polyester, and spandex, these socks provide a soft, breathable feel that wicks away moisture to keep your feet dry. They feature a reinforced heel and toe for added strength and long-lasting wear, as well as elastic ribbed cuffs to ensure they stay securely in place. Ideal for casual, athletic, or everyday use, their clean white design complements any outfit.",
     "img": ""
   },
   {
     "id": 10,
     "name": "Yellow Socks",
-    "price": 10, 
-    "description": "TEST10 Yellow Socks",
+    "price": 19,
+    "description": "A pair of yellow socks designed to add a pop of color and fun to your wardrobe. Made from a soft and breathable blend of cotton, polyester, and spandex, these socks provide all-day comfort while ensuring durability and flexibility. The vibrant yellow color is complemented by reinforced toes and heels for extra support and wear resistance. Featuring a snug, ribbed cuff, they stay securely in place without slipping. Perfect for casual outfits, themed looks, or just a cheerful touch to your day.",
     "img": ""
-  }  
+  }
 ]
